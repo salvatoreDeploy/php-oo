@@ -6,7 +6,10 @@
             "email": "liderhenrique@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "league/plates": "^3.4",
+        "symfony/var-dumper": "^5.4"
+    },
     "autoload": {
         "psr-4": {
             "app\\": "app"
